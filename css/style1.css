@@ -1,0 +1,178 @@
+*{
+margin:0px;
+padding:0px;
+}
+.bg{
+background:url(../img/default.jpg) no-repeat 0px 0px;
+background-size:cover;
+}
+.cover{
+height:100%;
+border-bottom:2px solid black;
+overflow:hidden;
+}
+.dp-change{
+background-color:#e3e3e3;
+border:5px solid white;
+width:100%;
+display:block;
+height:180px;
+margin-top:50px;
+text-align:center;
+overflow:hidden;
+}
+.upload{
+width:100%;
+}
+.dp{
+max-width:99%;
+min-width:99%;
+min-height:180px;
+height:180px;
+
+}
+.profile-info{
+padding-top:20px;
+float:left;
+height:100%;
+width:20%;
+
+}
+.bio{
+opacity:.8;
+background-color:#000000;
+font-size:20px;
+color:white;
+width:100%;
+height:100%;
+}
+.detail{
+border-bottom:2px solid white;
+text-align:center;
+overflow:hidden;
+padding:10px;
+}
+.value{
+font-size:22px;
+color:red;
+}
+.email-info{
+border-bottom:2px solid white;
+text-align:center;
+padding:10px;
+font-size:15px;
+}
+.slogan{
+float:right;
+width:80%;
+text-align:center;
+opacity:.9;
+color:black;
+padding:10px;
+font-size:50px;
+background-color:#666;
+margin-top:70px;
+}
+.slogan:hover{
+background-color:#e3e3e3;
+opacity:1;
+}
+.stories{
+width:100%;
+}
+/* ---------------------- */
+@media screen and (max-width:480px){
+.cover{
+width:100%;
+height:100%;
+border-bottom:2px solid black;
+
+}
+.profile-info{
+float:left;
+width:50%;
+height:100%;
+}
+.dp{
+border:5px solid white;
+width:100%;
+height:10%;
+}
+.dp-change:hover  div.dp-change-caption{
+display:none;
+}
+.bio{
+font-size:10px;
+width:100%;
+height:100%;
+}
+.email-info{
+display:none;
+}
+.detail{
+font-size:15px;
+text-align:center;
+}
+textarea{
+  width: 100%;
+  height: 90%;
+}
+.slogan{
+width:50%;
+height:150px;
+float:right;
+font-size:15px;
+padding:20px;
+}
+ul.story-set{
+  width: 96%;
+  margin: inherit;
+  font-size: 10px;
+}
+.read-more{
+  font-size: 12px;
+  color: black;
+  margin-top: 0px;
+}
+}
+/* ---------------------- */
+@media screen and (min-width:480px) and (max-width:1150px) {
+.cover{
+width:100%;
+height:100%;
+border-bottom:2px solid black;
+
+}
+.profile-info{
+float:left;
+width:30%;
+height:70%;
+}
+.dp{
+border:5px solid white;
+width:100%;
+height:10%;
+}
+.dp-change:hover  div.dp-change-caption{
+display:none;
+}
+.bio{
+font-size:10px;
+width:100%;
+height:100%;
+}
+.email-info{
+display:none;
+}
+.detail{
+font-size:15px;
+text-align:center;
+}
+.slogan{
+width:70%;
+height:120px;
+float:right;
+font-size:20px;
+padding:20px;
+}
+}
