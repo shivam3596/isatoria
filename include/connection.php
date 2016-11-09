@@ -2,7 +2,7 @@
   // 1- create a database connection
   define("DB_SERVER","server38.000webhost.com");
   define("DB_USER","a9829148_root");
-  define("DB_PASSWORD","alliswell3596");
+  define("DB_PASSWORD","*************");
   define("DB_NAME","a9829148_isatori");
   $connection = mysqli_connect(DB_SERVER,DB_USER,DB_PASSWORD,DB_NAME);
 
